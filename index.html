@@ -2,41 +2,78 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="author" content="Makki Mohammed Zaib Shaikh" />
+    <meta name="description" content="NFT Card" />
+    <title>NFT Preview</title>
     <link rel="stylesheet" href="./styles.css" />
-    <title>Frontend Mentor | NFT preview card component</title>
+    <link rel="icon" href="img/favicon-32x32.png" type="image/x-icon" />
   </head>
 
   <body>
-    <div class="sitecontainer">
-      <div class="card">
-        <div class="image-holder">
+    <header class="sr-only">
+      <h1>NTF Card</h1>
+    </header>
+    <main class="container">
+      <figure class="hero">
+        <img
+          src="./images/image-equilibrium.jpg"
+          alt="Equilibrium NFT"
+          title="Equilibrium"
+          width="604"
+          height="604"
+        />
+        <figcaption class="white">Equilibrium #3429</figcaption>
+      </figure>
+      <p class="soft-blue">
+        Our Equilibrium collection promotes <br />
+        balance and calm.
+      </p>
+      <div class="inline">
+        <figure>
           <img
-            src="./images/image-equilibrium.jpg"
-            width="305px"
-            alt="NFT Image"
+            src="./images/icon-ethereum.svg"
+            alt="Etherum icon"
+            title="Etherum"
+            width="11"
+            height="18"
           />
-        </div>
-        <div class="text-head">
-          <span>Equilibrium #3429</span>
-        </div>
-        <div class="text-paragraph">
-          <span>Our Equilibrium collection promotes balance and calm.</span>
-        </div>
-        <span> 0.041 ETH 3 days left Creation of Jules Wyvern </span>
+          <figcaption class="cyan">0.041 ETH</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="./images/icon-clock.svg"
+            alt="Clock icon"
+            title="Clock"
+            width="17"
+            height="17"
+          />
+          <figcaption class="soft-blue">3 days left</figcaption>
+        </figure>
       </div>
-    </div>
+      <figure class="author">
+        <img
+          src="./images/image-avatar.png"
+          alt="Avatar of Julesd Wyvern"
+          title="Jules Wyvern"
+          width="132"
+          height="132"
+        />
+        <figcaption class="soft-blue">
+          Creation of <strong class="white">Jules Wyvern</strong>
+        </figcaption>
+      </figure>
+    </main>
+    <footer class="footer">
+      <span
+        >This code was developed by
+        <a href="https://www.frontendmentor.io/profile/zaibshaikh"
+          >Frontend Mentor.</a
+        >
+        <br />Coded by
+        <a href="https://github.com/zaibshaikh">Makki Mohammed Zaib Shaikh</a>
+      </span>
+    </footer>
   </body>
 </html>
